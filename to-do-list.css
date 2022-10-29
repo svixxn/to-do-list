@@ -1,0 +1,158 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+input {
+    font-family: sans-serif;
+    border:none;
+    border-radius: 10px;
+}
+#new-task-h{
+    padding:15px;
+    width:300px;
+    border:2px solid lightskyblue;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#new-task-h:hover{
+    background-color: lightskyblue;
+}
+#hello-h{
+    padding: 20px;
+    width:500px;
+    border:2px solid pink;
+    border-radius: 20px;
+    font-size: 30px;
+}
+#name{
+    font-size: 30px;
+    background:none;
+}
+hr{
+    margin:20pt;
+    border: 1px solid #008afe;
+}
+#new-task-div{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20pt;
+    border-radius: 20px;
+    border:2px solid lightskyblue;
+}
+#input-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:800px;
+    padding: 20px;
+    height: 200px;
+    border:2px solid pink;
+    border-radius: 40px;
+}
+#newTask{
+    background:none;
+    width:400px;
+    margin-left:10px;
+    padding: 10px;
+    font-size: 20pt;
+}
+.submitButton{
+    position: relative;
+    font-family: sans-serif;
+    left:0.1em;
+    font-size: 40px;
+    background-color: white;
+    border:2px solid pink;
+    color:#272627;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.submitButton:hover{
+    background-color: pink;
+}
+#todolist-h{
+    padding:15px;
+    width:225px;
+    border:2px solid lightskyblue;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#todolist-h:hover{
+   background-color: lightskyblue;
+}
+#main-tasks-div{
+    display: flex;
+    flex-direction: column;
+    width:800px;
+    border:2px solid pink;
+    padding:20px;
+    border-radius: 40px;
+}
+.todo-task{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20pt;
+    border-radius: 20px;
+    border:2px solid lightskyblue;
+}
+.todo-content{
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+.content-task{
+    background:none;
+    width:470px;
+    margin-left:10px;
+    padding: 10px;
+    font-size: 20pt;
+}
+.edit-button{
+    position: relative;
+    font-family: sans-serif;
+    padding: 10px;
+    left:0.8em;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 15px;
+    border:2px solid pink;
+    color:#272627;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.delete-button{
+    position: relative;
+    font-family: sans-serif;
+    left:1em;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    border:2px solid pink;
+    color:#272627;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.edit-button:hover{
+    background-color: pink;
+}
+.delete-button:hover{
+    background-color: pink;
+}
+
+
+
